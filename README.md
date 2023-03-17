@@ -1,74 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Xenon_Task
 
-## Available Scripts
+A Simple Login and Signup can be done.User can also contact us by using contact form.
 
-In the project directory, you can run:
 
-### `npm start`
+## 🔗 Links
+[![Backend github link](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEX///+6u711eHtaXWFMUFQkKS7j5OQwNTrx8fKRk5bV1tc+Q0esrrDIycqDhomeoaNna24OVeM5AAAA/ElEQVR4AX3T0a6EIAwE0AEY2oLr3v//2iumIaC650UfJkw1BZMQUyZzigEPShQOEhUXJlyIYaaZN1kxVOEDqXAqfCQ6nZ9j46TFRDL7fDxswNbIdBDKBgQeDIciPHwAqJcWBVBHSaQHVoVdBCD0ilVgJ+NFcaGNXUC8HeA2djsSO8Udu4TsVXeJhwx27TVA8IQHjR3a7xka0ttXBB9y9+fLCLsH+X3+DQxjGQwLGyuBSFrIZNs/cJ9vI70BKKRUzeRYkD8OxU+TUuQsPFU6em8mI9Rsg6PL09JWTNal9bWPZrYGpN4uzhLIipldA4aLsovAicSCOy0jrBj+Adb8C4ZUKU58AAAAAElFTkSuQmCC)Source code Backend link](https://github.com/bhavyagg90/task_Backend)
+[![Frontend github link](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEX///+6u711eHtaXWFMUFQkKS7j5OQwNTrx8fKRk5bV1tc+Q0esrrDIycqDhomeoaNna24OVeM5AAAA/ElEQVR4AX3T0a6EIAwE0AEY2oLr3v//2iumIaC650UfJkw1BZMQUyZzigEPShQOEhUXJlyIYaaZN1kxVOEDqXAqfCQ6nZ9j46TFRDL7fDxswNbIdBDKBgQeDIciPHwAqJcWBVBHSaQHVoVdBCD0ilVgJ+NFcaGNXUC8HeA2djsSO8Udu4TsVXeJhwx27TVA8IQHjR3a7xka0ttXBB9y9+fLCLsH+X3+DQxjGQwLGyuBSFrIZNs/cJ9vI70BKKRUzeRYkD8OxU+TUuQsPFU6em8mI9Rsg6PL09JWTNal9bWPZrYGpN4uzhLIipldA4aLsovAicSCOy0jrBj+Adb8C4ZUKU58AAAAAElFTkSuQmCC)source code Frontend link](https://github.com/bhavyagg90/taskfrontend)
+[![twitter](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEX///+6u711eHtaXWFMUFQkKS7j5OQwNTrx8fKRk5bV1tc+Q0esrrDIycqDhomeoaNna24OVeM5AAAA/ElEQVR4AX3T0a6EIAwE0AEY2oLr3v//2iumIaC650UfJkw1BZMQUyZzigEPShQOEhUXJlyIYaaZN1kxVOEDqXAqfCQ6nZ9j46TFRDL7fDxswNbIdBDKBgQeDIciPHwAqJcWBVBHSaQHVoVdBCD0ilVgJ+NFcaGNXUC8HeA2djsSO8Udu4TsVXeJhwx27TVA8IQHjR3a7xka0ttXBB9y9+fLCLsH+X3+DQxjGQwLGyuBSFrIZNs/cJ9vI70BKKRUzeRYkD8OxU+TUuQsPFU6em8mI9Rsg6PL09JWTNal9bWPZrYGpN4uzhLIipldA4aLsovAicSCOy0jrBj+Adb8C4ZUKU58AAAAAElFTkSuQmCC)My github profile link](https://github.com/bhavyagg90)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![twitter](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVR4Ae1WgUZEQRRdgP6iAAEFWlDRm3kAlUCUQKuKhFVYELBUAUhEIWwRvL13+5AAbG/u9gsBlPPstWOjXs16ln2XA8fM3DMzd+aeShll/BZV15oyjtas40sr9GAdt75B2tsYa1171Th66mM/49KOGXBc/1Ny6zqbVujdCn/+BCN0no0XOvW4W3BGuDbg+Dl/cqEznVi4AOx8KMmHcXQfCR9Zod1hRELVLFkvmUNCIHK0BC7qJrPKmZRsrjvHsXuqX83by0ylqEDB+TuPuzwdtl6yaIVuMqS0l2MCX6kA4/guJPm/agBPzSuk4+IFOH70TuAgVMBKj+aN40YGoY1AAeFRuAAjyYIVagKx8FaggPAamDwB+CWt0AVgUt6ZvCJEf0CTAmLh9bII801wfA3EwsuhAtCW4Q0A6zqHlbEPeDg1EDAT2lKVw9+uP5xyIzUkMI/endXAoZd7ddHoc03l8MYDLNnYCeA6BgJ6ZHAyymlLRWNRTn84vHPltOCwhlFO6GQ4XxllfAG7WqXJbe+TdQAAAABJRU5ErkJggg==)Render.com hosted link](https://socialfrontend.onrender.com)
 
 
 
+## Screenshots
 
+Flow Diagram
+
+![Sign Up](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064994/neww/flow_txc4ct.jpg)
+
+Sign Up Page
+
+![Sign Up](https://res.cloudinary.com/dbmgq27le/image/upload/v1679062128/neww/sign_up_fyzw7j.jpg)
+
+Log In Page
+
+![Log In](https://res.cloudinary.com/dbmgq27le/image/upload/v1679062128/neww/login_mhwfh7.jpg)
+
+Contact Page
+
+![Contact Page](https://res.cloudinary.com/dbmgq27le/image/upload/v1679062128/neww/contact_p30bgx.jpg)
+
+login_successful
+
+![login_successful](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064310/neww/login_successful_zjdunn.jpg)
+
+signup_details
+
+![signup_details](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064310/neww/signup_details_fzn9uu.jpg)
+
+contact_form_filled
+
+![contact_form_filled](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064310/neww/contact_form_filled_lyknxo.jpg)
+
+login_details_entered
+
+![login_details_entered](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064310/neww/login_details_entered_fdpgbq.jpg)
+
+reg._success
+
+![reg._success](https://res.cloudinary.com/dbmgq27le/image/upload/v1679064310/neww/reg._success_pulymp.jpg)
+
+Database connected 
+
+![Database connected](https://res.cloudinary.com/dbmgq27le/image/upload/v1679065310/neww/database_connected_usvjsl.jpg)
+
+Database 1 connected 
+
+![Database connected](https://res.cloudinary.com/dbmgq27le/image/upload/v1679065723/neww/Database_2_b0mhhi.jpg)
+
+Database 2 connected 
+
+![Database connected](https://res.cloudinary.com/dbmgq27le/image/upload/v1679065723/neww/Database_2_b0mhhi.jpg)
