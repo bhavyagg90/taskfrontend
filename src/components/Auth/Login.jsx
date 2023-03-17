@@ -37,7 +37,7 @@ function Login() {
     try {
       const userlogined = await axios({
         method: "post",
-        url: "https://social-2s6e.onrender.com/api/authenticate",
+        url: "https://social-backend-bafj.onrender.com/api/authenticate",
         data: { email, password },
         headers: {
           "content-type": "application/json",
@@ -119,6 +119,7 @@ function Login() {
         colorScheme="blue"
         style={{ marginTop: "15px" }}
         onClick={handleLogin}
+        
         // isLoading = {load}
       >
         Login

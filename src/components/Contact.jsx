@@ -29,7 +29,7 @@ export const Contact = () => {
       return;
     }
     setButtonText("Sending...");
-    let response = await fetch("https://social-2s6e.onrender.com/api/contact", {
+    let response = await fetch("https://social-backend-bafj.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

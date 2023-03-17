@@ -59,7 +59,7 @@ function SignUp() {
     try {
       const userSigned = await axios({
         method: "post",
-        url: "https://social-2s6e.onrender.com/api/register",
+        url: "https://social-backend-bafj.onrender.com/api/register",
         data: { name, email, password },
       });
 

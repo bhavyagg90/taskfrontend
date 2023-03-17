@@ -41,7 +41,6 @@ code {
   max-height: 0;
   transition: max-height 1s ease-out;
   overflow: hidden;
-  background: #d5d5d5;
 }
 
 .maxHeight {
@@ -113,52 +112,4 @@ code {
 .wave:hover::after{
   top:-440px;
 
-}
-.box{
-  position: relative;
-  overflow: hidden;
-  background-color: transparent;
-  z-index: 5;
-}
-.box::before{
-  width: 80rem;
-  height:80rem;
-  left: -20rem;
-  background-color: #f0f5fa;
-  content: '';
-  /* opacity: .8 ; */
-  top: 12rem;
-  z-index: -1;
-  position: absolute;
-  animation: rotate 11s  linear infinite;
-  border-radius: 45%;
-
-}
-.box::after{
-  left: 0;
-  width: 80rem;
-  height:80rem;
-  border-radius: 47%;
-  background-color: #74CCF4;
-  content: '';
-  z-index: -1;
-  left: -20rem;
-  opacity: .3;
-  top: 13rem;
-  position: absolute;
-  animation: rotate 10s  linear infinite;
-
-}
-
-
-.resizeVIew{
-  resize: horizontal !important;
-}
-@keyframes rotate{
-  0%{
-      transform: rotate(0deg);
-  }
-  100%{
-      transform: rotate(360deg);
-  }
 }
