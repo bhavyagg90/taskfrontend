@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu button {
+  cursor: pointer;
+  transition: all 1s;
+  padding: 0 10px;
+ 
+}
+.bt svg{
+  font-size: 30px;
+}
+.bt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* padding: 2px; */
+  align-items: center;
+  display: flex;
+  border: 1px solid grey;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.menu .list {
+  max-height: 0;
+  transition: max-height 1s ease-out;
+  overflow: hidden;
+  background: #d5d5d5;
+}
+
+.maxHeight {
+  max-height: 20rem;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
+  background: #d5d5d5;
+}
+
+.menu p {
+  padding: 10px;
+}
+.waveButton{
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000;
+  background-color: #ed0e42;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 1s all ease-in-out;
+  overflow: hidden;
+}
+.wave::before{
+  position: absolute;
+  content: '';
+  width: 400px;
+  height: 400px;
+  background-color: #09C3DB;
+  top: -375px;
+  left: -120px;
+  border-radius: 45%;
+  transition: 2s all ease-in-out;
+  animation: wave 11s infinite linear;
+}
+.wave::after{
+  position: absolute;
+  content: '';
+  width: 400px;
+  height: 400px;
+  background-color: #eceeec;
+  top: -380px;
+  left: -125px;
+  border-radius: 45%;
+  transition: 2s all ease-in-out;
+  animation: wave 10s infinite linear;
+}
+.wave span{
+  position: relative;
+  z-index: 1;
+}
+@keyframes wave{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.wave:hover{
+  color: #fff;
+  
+}
+.wave:hover:before{
+  top:-450px;
+
+}
+.wave:hover::after{
+  top:-440px;
+
+}
+.box{
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 5;
+}
+.box::before{
+  width: 80rem;
+  height:80rem;
+  left: -20rem;
+  background-color: #f0f5fa;
+  content: '';
+  /* opacity: .8 ; */
+  top: 12rem;
+  z-index: -1;
+  position: absolute;
+  animation: rotate 11s  linear infinite;
+  border-radius: 45%;
+
+}
+.box::after{
+  left: 0;
+  width: 80rem;
+  height:80rem;
+  border-radius: 47%;
+  background-color: #74CCF4;
+  content: '';
+  z-index: -1;
+  left: -20rem;
+  opacity: .3;
+  top: 13rem;
+  position: absolute;
+  animation: rotate 10s  linear infinite;
+
+}
+
+
+.resizeVIew{
+  resize: horizontal !important;
+}
+@keyframes rotate{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}

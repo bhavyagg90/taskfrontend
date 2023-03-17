@@ -1,0 +1,77 @@
+span {
+    background: linear-gradient(to right, #bf0f93 0%, #f4711f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+span2 {
+    background: linear-gradient(to right, #bf0f93 0%, #f4711f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+header {
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+
+.claim {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+.desc {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 75px 75px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". . .";
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.e1 {
+    font-size: 25px;
+}
+
+i {
+    font-size: 55px;
+}
+
+button {
+    height: 50px;
+    width: 175px;
+    background-color: #f4711f;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    border-radius: 5px;
+}
+
+#maiousbg {
+    margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        grid-template-columns: auto !important;
+        grid-template-areas:"."
+    }
+  }
