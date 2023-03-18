@@ -61,7 +61,7 @@ Database connected
 
 Database 1 connected 
 
-![Database connected](https://res.cloudinary.com/dbmgq27le/image/upload/v1679065723/neww/Database_2_b0mhhi.jpg)
+![Database connected](https://res.cloudinary.com/dbmgq27le/image/upload/v1679065724/neww/Database_1_nx9rzj.jpg)
 
 Database 2 connected 
 
